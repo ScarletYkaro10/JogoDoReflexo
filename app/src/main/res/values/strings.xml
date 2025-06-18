@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Jogo do Reflexo!</string>
+    <string name="label_recorde">RECORDE: %d</string>
+    <string name="recorde_inicial">RECORDE: 0</string>
+    <string name="botao_iniciar_jogo">Iniciar Jogo</string>
+    <string name="botao_historico">Histórico de Jogadas</string>
+    <string name="toast_iniciando_jogo">Iniciando o jogo...</string>
+    <string name="toast_abrindo_historico">Abrindo histórico...</string>
+    <string name="jogo_pontos">Pontos: %d</string>
+    <string name="jogo_tempo">Tempo: %ds</string>
+    <string name="jogo_fim_de_jogo">Fim de Jogo!</string>
+    <string name="jogo_pontuacao_final">Sua pontuação final foi: %d</string>
+    <string name="jogo_pontuacao_final_recorde">Sua pontuação final foi: %d\nNOVO RECORDE!</string>
+    <string name="titulo_historico">Histórico de Jogadas</string>
+    <string name="label_top_3_recordes">Top 3 Recordes</string>
+    <string name="label_ultimas_10_jogadas">Últimas 10 Jogadas</string>
+    <string name="adapter_pontuacao">Pontuação: %d</string>
+    <string name="adapter_data">Data: %s</string>
+    <string name="botao_jogar_novamente">Jogar Novamente</string>
+    <string name="botao_voltar_menu">Voltar ao Menu</string>
+    <string name="cd_alvo_do_jogo">Alvo do jogo</string>
+    <string name="cd_icone_recorde">Ícone de recorde</string>
+    <string name="botao_iniciar_hardcore">Modo Hardcore Henry!</string>
+</resources>

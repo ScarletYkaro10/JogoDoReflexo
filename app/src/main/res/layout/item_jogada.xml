@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imageViewRecordeIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_record"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        app:tint="@color/white"
+        android:contentDescription="@string/cd_icone_recorde"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/textViewPontuacaoJogada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/imageViewRecordeIcon"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Pontuação: 15" />
+
+    <TextView
+        android:id="@+id/textViewDataJogada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPontuacaoJogada"
+        android:layout_alignParentStart="true"
+        android:textSize="14sp"
+        tools:text="Data: 18/06/2025 11:30"/>
+
+</RelativeLayout>
